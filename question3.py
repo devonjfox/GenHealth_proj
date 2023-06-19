@@ -23,6 +23,7 @@ comorbidities_set = set()
 for value in covid_patient_comorbidities_dict.values():
     comorbidities_set = comorbidities_set.union(value)
 
-#This question answers ALL events before and after COVID-19 event
+
 #TODO filter by after COVID event
-pprint(comorbidities_set)
+print(comorbidities_set)
+print("This list provides ALL events before and after COVID-19 event")

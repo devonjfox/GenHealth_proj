@@ -22,6 +22,7 @@ for medication in _medications:
     if medication[2] in covid_patient_ids_set:
         covid_medications[medication[5]] = medication[6]
 
+print("4.c.1. Unique Insight: What medications are COVID-19 patients using?")
 print("All medications COVID patients are taking:")
 print(covid_medications)
 
@@ -34,5 +35,6 @@ for medication in _medications:
     if medication[2] in _icu_covid_patients:
         covid_icu_medications[medication[5]] = medication[6]
 
+print("4.c.2. Unique Insight: What medications do COVID, ICU patients take?")
 print("All medications ICU COVID patients are taking:")
 print(covid_icu_medications)

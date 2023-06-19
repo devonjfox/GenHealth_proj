@@ -26,6 +26,6 @@ for encounter in encounters:
 
 
 
-
+print("4.b Unique Insight: How many COVID patients had a ICU event")
 print("Number of COVID-19 patients with ICU event: ", len(icu_covid_patients))
 print("Percent of COVID-19 patients with ICU event: ", ((len(icu_covid_patients))/(len(covid_patient_ids_set)))*100)

@@ -17,6 +17,7 @@ for patient_id in suspected_covid_patient_id_set:
     if patient_id not in covid_patient_ids_set:
         only_suspected_covid.append(patient_id)
 
+print("4. Unique Inquiry: How many patients had ONLY suspected COVID?")
 print("Only suspected COVID-19: ", len(only_suspected_covid))
 #TODO add statistics
 
